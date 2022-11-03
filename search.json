@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ym-test-nbdev",
+    "section": "",
+    "text": "idk man this is a test?"
+  },
+  {
+    "objectID": "01_deck.html",
+    "href": "01_deck.html",
+    "title": "ym-test-nbdev",
+    "section": "",
+    "text": "source\n\nDeck\n\n Deck ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nDeck()\n\nA of Diamond; 2 of Diamond; 3 of Diamond; 4 of Diamond; 5 of Diamond; 6 of Diamond; 7 of Diamond; 8 of Diamond; 9 of Diamond; 10 of Diamond; J of Diamond; Q of Diamond; K of Diamond; A of Hearts; 2 of Hearts; 3 of Hearts; 4 of Hearts; 5 of Hearts; 6 of Hearts; 7 of Hearts; 8 of Hearts; 9 of Hearts; 10 of Hearts; J of Hearts; Q of Hearts; K of Hearts; A of Clubs; 2 of Clubs; 3 of Clubs; 4 of Clubs; 5 of Clubs; 6 of Clubs; 7 of Clubs; 8 of Clubs; 9 of Clubs; 10 of Clubs; J of Clubs; Q of Clubs; K of Clubs; A of Spades; 2 of Spades; 3 of Spades; 4 of Spades; 5 of Spades; 6 of Spades; 7 of Spades; 8 of Spades; 9 of Spades; 10 of Spades; J of Spades; Q of Spades; K of Spades"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "This is the nbdev test project.",
+    "section": "",
+    "text": "suits\n\n('D', 'H', 'C', 'S')\n\n\n\nranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\n\n\n\nc = Card(suit=1, rank=3)\n\n\nc\n\n3 of H\n\n\n\nsource\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card.\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nIndexes from suit\n\n\nrank\nint\nIndexes from ranks\n\n\n\n\n@patch\n# lets you patch in properties into a class\ndef __eq__(self:Card, a:Card): return (self.suit, self.rank) == (a.suit, a.rank)\ndef __lt__(self:Card, a:Card): return (self.suit, self.rank) < (a.suit, a.rank)\ndef __gt__(self:Card, a:Card): return (self.suit, self.rank) > (a.suit, a.rank)"
+  }
+]
