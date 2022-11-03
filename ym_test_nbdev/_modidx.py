@@ -5,4 +5,9 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://maiyishan.github.io',
                 'git_url': 'https://github.com/maiyishan/ym-test-nbdev',
                 'lib_path': 'ym_test_nbdev'},
-  'syms': {'ym_test_nbdev.core': {'ym_test_nbdev.core.foo': ('core.html#foo', 'ym_test_nbdev/core.py')}}}
+  'syms': { 'ym_test_nbdev.core': { 'ym_test_nbdev.core.Card': ('core.html#card', 'ym_test_nbdev/core.py'),
+                                    'ym_test_nbdev.core.Card.__init__': ('core.html#card.__init__', 'ym_test_nbdev/core.py'),
+                                    'ym_test_nbdev.core.Card.__str__': ('core.html#card.__str__', 'ym_test_nbdev/core.py')},
+            'ym_test_nbdev.deck': { 'ym_test_nbdev.deck.Deck': ('deck.html#deck', 'ym_test_nbdev/deck.py'),
+                                    'ym_test_nbdev.deck.Deck.__init__': ('deck.html#deck.__init__', 'ym_test_nbdev/deck.py'),
+                                    'ym_test_nbdev.deck.Deck.__str__': ('deck.html#deck.__str__', 'ym_test_nbdev/deck.py')}}}
