@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ym-test-nbdev"
+  site-url: "https://maiyishan.github.io/ym-test-nbdev"
+  description: "YM's test nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/maiyishan/ym-test-nbdev"
